@@ -1,0 +1,19 @@
+.search {
+  display: flex;
+  flex-direction: column;
+  padding-top: 22px;
+  border-top: 1px solid gainsboro;
+}
+
+.search label {
+  font-weight: bold;
+}
+
+.search input {
+  border: none;
+  border-radius: 5px;
+  height: 38px;
+  background: #f4f0f0;
+  padding: 0 10px;
+  margin-top: 10px;
+}

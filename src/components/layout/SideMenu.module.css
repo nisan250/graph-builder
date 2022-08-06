@@ -1,0 +1,12 @@
+.menu {
+  width: 6vw;
+  background: #7d85dd;
+  display: flex;
+  min-width: 10vw;
+}
+
+.menu h3 {
+  transform: rotate(-90deg);
+  margin: auto;
+  color: #fff;
+}

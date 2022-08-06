@@ -1,0 +1,10 @@
+.tool {
+  background: #fafafa;
+  border: 1px solid gray;
+  border-radius: 30px;
+  height: 60px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

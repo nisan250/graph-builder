@@ -1,0 +1,11 @@
+.app {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.right-panel {
+  display: flex;
+  flex-direction: column;
+  width: 94vw;
+}

@@ -1,0 +1,30 @@
+.menu {
+  height: 5vh;
+  display: flex;
+  padding: 0 20px;
+  justify-content: space-between;
+  border-bottom: 5px;
+  border-bottom-style: solid;
+  border-color: #7d85dd;
+  background: #ffffff;
+  min-height: 48px;
+}
+
+.menu h3 {
+  text-align: center;
+  color: #000;
+  margin: auto 0;
+}
+
+.menu button {
+  align-self: center;
+  width: 140px;
+  height: 36px;
+  font-size: 17px;
+  font-weight: bold;
+  color: #fff;
+  background: green;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}

@@ -1,0 +1,16 @@
+.list {
+  margin-top: 22px;
+  overflow: auto;
+  height: 100%;
+}
+
+.list ul {
+  list-style: none;
+  margin: 9;
+  padding: 0;
+}
+
+.list li {
+  margin-top: 10px;
+  cursor: pointer;
+}

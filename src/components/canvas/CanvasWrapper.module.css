@@ -1,0 +1,6 @@
+.wrapper {
+  overflow: auto;
+  position: relative;
+  white-space: nowrap;
+  margin: auto;
+}

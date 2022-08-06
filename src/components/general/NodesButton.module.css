@@ -1,0 +1,47 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button {
+  width: 36px;
+  height: 36px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background: green;
+  border-radius: 18px;
+  border: none;
+  cursor: pointer;
+}
+
+.tooltip {
+  visibility: hidden;
+  width: 234px;
+  border: 1px solid #000;
+  height: 80px;
+  border-radius: 5px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.open {
+  visibility: visible;
+}
+
+.add-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.add-wrapper button {
+  align-self: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 18px;
+  border: 1px solid gray;
+  cursor: pointer;
+}

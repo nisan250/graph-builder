@@ -1,0 +1,26 @@
+.wrapper {
+  background-color: #fff;
+  position: fixed;
+  width: 19vw;
+  right: 20px;
+  border: 1px solid darkgray;
+  padding: 10px 20px;
+  /* top: 76px; */
+  bottom: 20px;
+  min-width: 200px;
+  overflow: hidden;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  display: none;
+}
+
+.open {
+  display: flex;
+}
+
+@media only screen and (max-height: 650px) {
+  .wrapper {
+    height: 82vh;
+  }
+}

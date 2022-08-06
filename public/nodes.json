@@ -1,0 +1,46 @@
+[
+    { 
+        "id": 2,
+        "nodeType": "Tool",
+        "title": "Tool 2"
+    },
+    {
+        "id": 5,
+        "nodeType": "Tool",
+        "title": "Tool 5"
+    },
+    {
+        "id": 100,
+        "nodeType": "CrossRoad",
+        "routes": [
+            {
+                "title": "left route",
+                "nodes": [
+                    {
+                    "id": 5,
+                    "nodeType": "Tool",
+                    "title": "Tool 5"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "type": "ProgressBar",
+        "title": "Extreme Progress Bar",
+        "data": {
+            "label": "Workout Progress",
+            "completed": 30
+        }
+    },
+    {
+        "id": 5,
+        "type": "ProgressBar",
+        "title": "Sweet Progress Bar",
+        "data": {
+            "label": "Diet Progress",
+            "completed": 30
+        }
+    }
+]
